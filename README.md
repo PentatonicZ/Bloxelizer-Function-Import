@@ -17,6 +17,21 @@ into a named Minecraft function that can be run with:
 
 ## Features
 
+First launch:
+1. Double-click "Bloxelizer Importer - Configurable.bat".
+2. Select the Minecraft datapack function folder when prompted. This is the
+   folder where the .mcfunction files should be copied.
+3. Select a Bloxelizer ZIP and enter the structure name.
+4. Click Import.
+
+The selected destination is saved in:
+Bloxelizer Importer.settings.json
+
+That settings file is created beside the configurable PowerShell script. To
+choose a different destination later, close the importer and delete that
+settings file, then launch the script again.
+
+
 - Simple Windows Forms GUI.
 - Standard ZIP file picker.
 - User-selected structure names.
